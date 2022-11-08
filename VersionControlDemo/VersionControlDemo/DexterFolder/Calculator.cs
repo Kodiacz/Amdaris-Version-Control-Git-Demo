@@ -6,5 +6,12 @@
         {
             return a + b;
         }
+
+        public static decimal Multiple(decimal a, decimal b)
+        {
+            decimal result = a * b;
+
+            return result;
+        }
     }
 }
