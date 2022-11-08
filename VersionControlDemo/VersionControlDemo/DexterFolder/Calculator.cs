@@ -2,7 +2,7 @@
 {
     public static class Calculator
     {
-        public static decimal Sum(int a, int b)
+        public static decimal Sum(decimal a, decimal b)
         {
             return a + b;
         }
