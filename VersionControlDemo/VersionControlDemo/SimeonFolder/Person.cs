@@ -1,11 +1,9 @@
 ﻿namespace VersionControlDemo.SimeonFolder
 {
-    public class Cat
+    public class Person
     {
         public string Name { get; set; }
 
         public int Age { get; set; }
-
-
     }
 }
