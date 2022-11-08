@@ -6,5 +6,10 @@
         {
             return a + b;
         }
+
+        public static int Multiple(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
