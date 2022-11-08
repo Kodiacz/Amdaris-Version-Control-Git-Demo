@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace VersionControlDemo.DexterFolder
+﻿namespace VersionControlDemo.DexterFolder
 {
-    internal class Calculator
+    public static class Calculator
     {
+        public static decimal Sum(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
